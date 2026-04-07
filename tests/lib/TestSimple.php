@@ -1,10 +1,10 @@
 <?php
 /*
-    Procedural wrapper for Test-Simple.php
-    See Test-Simple-OO.php for documentation.
+    Procedural wrapper for TestSimple.php
+    See TestSimpleOO.php for documentation.
 */
 
-require_once('Test-Simple-OO.php');
+require_once('TestSimpleOO.php');
 
 global $__Test;
 $__Test = new TestSimple();

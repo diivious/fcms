@@ -1,21 +1,21 @@
 <?php
 /*
-    Test-More-OO.php:
+    TestMoreOO.php:
         A workalike of Perl's Test::More for PHP.
 
-    Why Test-More?
-        Test-More is a great way to start testing RIGHT NOW.
+    Why TestMore?
+        TestMore is a great way to start testing RIGHT NOW.
 
     Why ok and not ok?
-        Test-More produces TAP compliant output.
+        TestMore produces TAP compliant output.
         For more on TAP, see: http://testanything.org
         For the TAP spec, see: http://search.cpan.org/dist/TAP/TAP.pm
 
     Other testing libraries:
-        You can replace Test-Simple with Test-More without making any changes
+        You can replace Test-Simple with TestMore without making any changes
         to existing test code, providing access to further testing methods.
         You can also replace any other PHP Test::More workalike library out there
-        with Test-More.php and it will work without making any changes to the code.
+        with TestMore.php and it will work without making any changes to the code.
 
     Assertions:
         produce TAP output
@@ -26,14 +26,14 @@
             any other number    how many failed (including missing or extras)
 
     Example:
-        require_once('Test-More-OO.php');
+        require_once('TestMoreOO.php');
         $t = new TestMore();
         $t->plan(2);
         $t->ok(1 + 1 = 2, 'One plus one equals two');
         $t->ok( doSomethingAndReturnTrue() , 'doSomethingAndReturnTrue() successful');
 
     Procedural Example:
-        require_once('Test-More.php');
+        require_once('TestMore.php');
         plan(2);
         ok(1 + 1 = 2, 'One plus one equals two');
         ok( doSomethingAndReturnTrue() , 'doSomethingAndReturnTrue() successful');
@@ -58,11 +58,11 @@
 
 */
 
-require_once('Test-Simple-OO.php');
+require_once('TestSimpleOO.php');
 
 class TestMore extends TestSimple {
 
-/* Test-More extensions */
+/* TestMore extensions */
     private $interp;
 
     function pass ($name = NULL) {

@@ -1,10 +1,10 @@
 <?php
 /*
-    Procedural interface wrapper for Test-More-OO.php.
-    See Test-More-OO.php for documentation.
+    Procedural interface wrapper for TestMoreOO.php.
+    See TestMoreOO.php for documentation.
 */
 
-require_once('Test-More-OO.php');
+require_once('TestMoreOO.php');
 
 global $__Test;
 $__Test = new TestMore();
