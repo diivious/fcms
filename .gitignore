@@ -15,3 +15,6 @@ familyconnections/uploads/upimages/*
 !familyconnections/uploads/photos/index.htm
 !familyconnections/uploads/upimages/index.htm
 
+/.vs
+*~
+*#
